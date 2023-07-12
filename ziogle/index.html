@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+      .ifm{
+        width:100%;
+        height:360px;
+        border: 0;
+      }
+    </style>
+
+    <script>
+      const fSend = () =>{
+        google.script.run.alertMessage();
+      }
+    </script>
+  </head>
+
+  <body>
+    <iframe class="ifm" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSk92NUZKRcmXlze23plrptK9zZBPdlq6nPBYkkihPgOf9fdBYeYmgLy6eX0eJEgbP9xBQJ8m-hsMEW/pubhtml?widget=true&amp;headers=false"></iframe>
+
+    <button onclick="fSend()">상신하기</button>
+  </body>
+
+</html>
